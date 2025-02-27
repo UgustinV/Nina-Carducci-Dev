@@ -377,6 +377,11 @@ footer a:hover{
 		left: 0;
 		z-index: -1;
 	}
+
+	.picture img{
+		width: 100%;
+	}
+
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
