@@ -9,12 +9,12 @@ const popup = L.popup([44.8465743,-0.6065365], {
 		<li><p class="footer-title">Informations de contact</p></li>
 		<li><span>Téléphone :</span><p>+33 5 56 67 78 89</p></li>
 		<li><span>Adresse :</span><p><a href="https://maps.app.goo.gl/i1vVoqTwm5fPUwQU8" target="_blank">68 Av. Alsace Lorraine, 332000 Bordeaux</a></p></li>
-		<li><p class="footer-title">Horaires :</p></li>
+		</ul>
 		<ul>
+			<li><p class="footer-title">Horaires :</p></li>
 			<li><span>Lundi-samedi :</span><p>08:00-18:00</p></li>
 			<li><span>Dimanche :</span><p>Fermé</p></li>
-		</ul>
-	</ul>`,
+		</ul>`,
     className: 'popup'
 });
 
