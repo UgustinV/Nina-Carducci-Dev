@@ -127,6 +127,12 @@ body {
 
 }
 
+.carousel-item{
+	aspect-ratio: 1920/888 !important;
+    max-height: 889px !important;
+    overflow: hidden;
+}
+
 .carousel-control-next, .carousel-control-prev {
     color: #000000 !important;
 }
@@ -386,7 +392,9 @@ footer a:hover{
 	}
 
 	.picture img{
-		width: 100%;
+		aspect-ratio: 1/1 !important;
+		width: 100% !important;
+		height: auto !important;
 	}
 
 	.about-me__title{
