@@ -1,0 +1,11 @@
+/*
+  Cache-Control: public, max-age=31536000
+
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/assets/images/slider/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/assets/images/webpgallery/*
+  Cache-Control: public, max-age=31536000, immutable
