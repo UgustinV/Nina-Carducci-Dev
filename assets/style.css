@@ -143,7 +143,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -152,6 +154,16 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+
+.modal-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lightboxImage {
+	width: 100%;
 }
 
 .quote {
