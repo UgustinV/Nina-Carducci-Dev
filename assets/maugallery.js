@@ -220,7 +220,7 @@
     },
     showItemTags(gallery, position, tags) {
       var tagItems =
-        '<li class="nav-item" aria-label="Filtre Tous"><span class="nav-link active active-tag" aria-selected="true" data-images-toggle="all">Tous</span></li>';
+        '<li class="nav-item" aria-label="Filtre Tous"><span class="nav-link active active-tag" aria-current="true" data-images-toggle="all">Tous</span></li>';
       $.each(tags, function(index, value) {
         tagItems += `<li aria-label="Filtre ${value}" class="nav-item active">
                 <span class="nav-link"  data-images-toggle="${value}">${value}</span></li>`;
@@ -240,9 +240,9 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(".active-tag").attr("aria-selected", "false");
+      $(".active-tag").attr("aria-current", "false");
       $(this).addClass("active active-tag");
-      $(this).attr("aria-selected", "true");
+      $(this).attr("aria-current", "true");
 
       var tag = $(this).data("images-toggle");
 
